@@ -6,7 +6,7 @@
     <title>Dr. Jolene Auret Kappis ☕</title>
     <style>
       body {
-        background-color: #FDF4F5;
+        background-color: rgb(250, 236, 246);
         margin: 30px;
       }
 
@@ -18,30 +18,47 @@
         width: 5%;
       }
 
+      @media (max-width: 500px) {
+        .headertitle {
+          display: block;
+        }
+      }
+
+      @media (min-width: 501px) {
+
+       
+        .header img { 
+          float: left;
+          margin-right: 20px;
+          margin-bottom: 10px;
+        }
+
+        .headertitle {
+          text-align: left;
+        }  
+      }
+
   </style>
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>  
-          <img src="images/jolene-circle.png" 
+    <div class="header">
+       <img src="./images_myPortfolio/jolene-circle.png" 
           height="200" width="200"
           alt="Profile picture of Jolene">
-        </td>
-        <td> 
+    
+      <div class="headertitle">
           <h1>Dr. Jolene Auret Kappis</h1>
-          <p><em>Quite by chance, I fell head over heals <strong>in love with coding ❤️</strong></em></p>
-           <p>While writing and researching for my PhD in Philosophy <em><a href="https://scholar.sun.ac.za/handle/10019.1/126913">The Choral Music of 
-            Hans Roosenschoon</em></a> I came across LateX and Lilypond.
-            These two tools became so enjoyable for me, that once I graduated, I found myself 
-           digging deeper into coding. The rest is history.
+          <p><em>Quite by chance, I fell head over heels <strong>in love with coding ❤️</strong></em></p>
+          <p>While writing and researching for my PhD in Philosophy <br><em><a href="https://scholar.sun.ac.za/handle/10019.1/126913">The Choral Music of 
+            Hans Roosenschoon</em></a><br> I came across LateX and Lilypond. <br>
+          These two tools became so enjoyable for me, that once I graduated, I found myself 
+          digging deeper into coding.<br> The rest is history.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+  </div>
     <hr>
     <h3>Education</h3>
     <ul type="i">
